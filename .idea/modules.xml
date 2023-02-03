@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BirdWatcher [Array, For-Each, For]/BirdWatcher [Array, For-Each, For].iml" filepath="$PROJECT_DIR$/BirdWatcher [Array, For-Each, For]/BirdWatcher [Array, For-Each, For].iml" />
+      <module fileurl="file://$PROJECT_DIR$/Blackjack [If]/Blackjack [If].iml" filepath="$PROJECT_DIR$/Blackjack [If]/Blackjack [If].iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarsAssemble [Num]/CarsAssemble [Num].iml" filepath="$PROJECT_DIR$/CarsAssemble [Num]/CarsAssemble [Num].iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogLevels [Str]/LogLevels [Str].iml" filepath="$PROJECT_DIR$/LogLevels [Str]/LogLevels [Str].iml" />
+      <module fileurl="file://$PROJECT_DIR$/Squeaky Clean [Char]/Squeaky Clean [Char].iml" filepath="$PROJECT_DIR$/Squeaky Clean [Char]/Squeaky Clean [Char].iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/exercism.iml" filepath="$PROJECT_DIR$/.idea/exercism.iml" />
+    </modules>
+  </component>
+</project>
