@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+
+class StackHam {
+  private ArrayList<String>arrayStack=  new ArrayList<String>();
+
+  public void push(String data){
+      arrayStack.add(data);
+  }
+  public Object pop(){
+      if(arrayStack.size()==0){
+          System.out.println("No Data");
+          return null;
+      }
+      else
+      return arrayStack.remove(arrayStack.size() - 1); // last array index return
+  }
+}
+class QueueHam{
+    private ArrayList<String>arrayQueue=  new ArrayList<String>();
+
+    public void enQ(String data){
+        arrayQueue.add(data);
+    }
+    public Object deQ(){
+        if(arrayQueue.size()==0){
+            System.out.println("No Data");
+            return null;
+        }
+        else
+            return arrayQueue.remove(0); // first array index return
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        StackHam stackHam = new StackHam();
+        QueueHam queueHam = new QueueHam();
+
+        stackHam.push("hamster");
+        stackHam.push("hamster1");
+        stackHam.push("hamster2");
+        System.out.println("stackHam = " + stackHam.pop());
+        
+        queueHam.enQ("hamster1223");
+        queueHam.enQ("hamster1224");
+        queueHam.enQ("hamster1225");
+        System.out.println("queueHam.deQ() = " + queueHam.deQ());
+    }
+}
